@@ -1,0 +1,29 @@
+.edit-transcript-container {
+    padding: 20px;
+}
+
+.edit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discard-button, .save-button {
+    background-color: #8b3434;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.transcript-editor {
+    margin-top: 20px;
+}
+
+.transcript-editor textarea {
+    width: 100%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

@@ -1,0 +1,178 @@
+.projects-container {
+    padding: 20px;
+    text-align: center;
+    margin-top: 150px; /* Adjust this value based on the height of your navbar */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #4a4a4a;
+}
+
+.create-project-button {
+    background-color: #4a4a4a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.create-project-button:hover {
+    background-color: #333333;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project-initials {
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    background-color: #6a1b9a;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-details h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.project-details p {
+    color: #757575;
+}
+/* ProjectHero.css */
+
+
+
+
+
+
+
+.project-hero {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin-left: 105px;
+    margin-right: 105px;
+}
+
+.project-hero h1 {
+    font-size: 45px;
+    color: #5c2d91; /* Matching the logo color */
+    margin-bottom: 40px;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: auto auto auto
+    /* gap: 150px; */
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    width: 320px;
+    padding: 10px;
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-icon {
+    background-color: #5c2d91; /* Default purple color */
+    color: #fff;
+    border-radius: 8px;
+    width: 100px;
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.project-card:nth-child(2n) .project-icon {
+    background-color: #f9a825; /* Alternate color for variety */
+}
+
+.project-details h2 {
+    padding-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.project-details p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.create-project-btn {
+    background-color: #2e2e2e; /* Matching the button color in the image */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 50px;
+    width: 245px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+
+.create-project-btn i{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+
+.create-project-btn:hover {
+    background-color: #1c1c1c;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.btnbox{
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,100 @@
+/* SettingRight.css */
+.main-content {
+    font-family: Arial, sans-serif;
+    padding: 50px;
+    /* max-width: 800px; */
+    width: 80vw;
+    /* margin: 0 auto; */
+  }
+  
+  .setting-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .breadcrumb1 {
+    color: #8a2be2;
+  }
+  
+  
+  .language-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag {
+    margin-left: 5px;
+  }
+  
+  h1, h2 {
+    color: #8a2be2;
+  }
+  
+  .user-info {
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  .user-image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .user-details {
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    align-items: center;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 15px;
+  
+  }
+  
+  .input-group input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 15px;
+  }
+
+ 
+  
+  .subscription-box {
+    background-color: #8a2be2;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .upgrade-button {
+    background-color: white;
+    color: #8a2be2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .cancel-link {
+    color: red;
+    text-decoration: none;
+  }
