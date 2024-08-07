@@ -38,7 +38,7 @@
   color: #6d28d9;
 }
 
-.widget-tabs{
+.widget-tabs {
   display: flex;
 }
 
@@ -54,7 +54,7 @@
 }
 
 
-.widget-tabs span::after{
+.widget-tabs span::after {
   content: '';
   width: 0;
   height: 5px;
@@ -90,6 +90,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+
 .widget-tab-content1 input,
 .widget-tab-content1 select {
   width: 90%;
@@ -108,6 +109,7 @@
 .widget-column {
   width: 48%;
 }
+
 .widget-column1 {
   width: 48%;
 }
@@ -131,7 +133,7 @@
   background-color: #0099ff;
 }
 
-.toggle-main{
+.toggle-main {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -140,7 +142,7 @@
   margin-bottom: 50px;
 }
 
-.toggle-main label{
+.toggle-main label {
   font-size: 20px;
 }
 
@@ -185,8 +187,8 @@
 .line {
   width: 100%;
   height: 1.5px;
-  background-color: #7c7777; 
- margin-top: -20px;
+  background-color: #7c7777;
+  margin-top: -20px;
 }
 
 .color-picker-container {
@@ -205,10 +207,58 @@
 }
 
 .color-picker-container input[type="color"] {
-  width: 40px; 
-  height: 40px; 
+  width: 40px;
+  height: 40px;
   padding: 0;
   border: none;
   cursor: pointer;
   margin-right: 5px;
+}
+
+.widget-column select {
+  width: 430px;
+}
+
+.chat-icon {
+  color: #8a2be2;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.bot-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.widget-column-bot {
+  margin-top: 20px;
+  display: flex;
+}
+
+.widget-column-bot label {
+  font-size: 20px;
+}
+
+.bot {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bot-upload {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bot-upload button {
+  width: 150px;
+}
+
+.bot-upload p {
+  font-size: 10px;
 }
