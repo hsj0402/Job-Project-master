@@ -89,6 +89,30 @@
 
 
 // ProjectContext.js
+// import React, { createContext, useState, useEffect } from 'react';
+
+// export const ProjectContext = createContext();
+
+// export const ProjectProvider = ({ children }) => {
+//     const [projectName, setProjectName] = useState(() => {
+//         return localStorage.getItem('projectName') || '';
+//     });
+
+//     useEffect(() => {
+//         localStorage.setItem('projectName', projectName);
+//     }, [projectName]);
+
+//     return (
+//         <ProjectContext.Provider value={{ projectName, setProjectName }}>
+//             {children}
+//         </ProjectContext.Provider>
+//     );
+// };
+
+
+
+
+
 import React, { createContext, useState, useEffect } from 'react';
 
 export const ProjectContext = createContext();
@@ -98,14 +122,21 @@ export const ProjectProvider = ({ children }) => {
         return localStorage.getItem('projectName') || '';
     });
 
+    const [projectId, setProjectId] = useState(() => {
+        return localStorage.getItem('projectId') || '';
+    });
+
     useEffect(() => {
         localStorage.setItem('projectName', projectName);
     }, [projectName]);
 
+    useEffect(() => {
+        localStorage.setItem('projectId', projectId);
+    }, [projectId]);
+
     return (
-        <ProjectContext.Provider value={{ projectName, setProjectName }}>
+        <ProjectContext.Provider value={{ projectName, setProjectName, projectId, setProjectId }}>
             {children}
         </ProjectContext.Provider>
     );
 };
-
